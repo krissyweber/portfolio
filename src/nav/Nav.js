@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link, useLocation } from "react-router-dom";
 import astronautHelmet from "../assets/astronaut-helmet.png";
-import deadEye from "../assets/dead-eye.png";
+import skillsImage from "../assets/skills-image.png";
 import stack from "../assets/stack.png";
 import envelope from "../assets/envelope.png";
 import "../styles/nav.css";
@@ -69,20 +69,20 @@ return (
         )}
          {renderNavLink(
             "/skills",
-            deadEye,
-            "deadEye icon",
+            skillsImage,
+            "skills icon",
             "nav-skills"
         )}
          {renderNavLink(
             "/projects",
             stack,
-            "stack icon",
+            "projects icon",
             "nav-projects"
         )}
          {renderNavLink(
             "/contact",
             envelope,
-            "envelope icon",
+            "econtact icon",
             "nav-contact"
         )}
 

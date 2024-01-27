@@ -1,10 +1,10 @@
 .nav {
     position: fixed;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     top: 3rem;
     gap: 1.5625rem;
-    left: 50%;
+    left: 60%;
 }
 
 .nav-about {
