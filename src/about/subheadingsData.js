@@ -21,7 +21,7 @@ Balancing screen time with outdoor activities helps me stay creative and adaptab
             <p>Computer Programming Diploma</p>
             <p>Algonquin College, 2023</p>
             <p>
-            Successfully completed a comprehensive diploma program in Computer Programming at Algonquin College. This program equipped me with a solid foundation in various programming languages, software development, and problem-solving skills. Key areas of study included web development, database management, and software design principles, all of which have provided me with the tools necessary to excel in the fast-paced and evolving field of technology. This educational experience not only honed my technical abilities but also emphasized the importance of teamwork, effective communication, and continuous learning in the world of computer programming.  
+            Successfully completed a comprehensive diploma program in Computer Programming at Algonquin College. This program equipped me with a solid foundation in various programming languages, software development, and problem-solving skills. Key areas of study included web development, database management, and software design principles, all of which have provided me with the tools necessary to excel in the fast-paced and evolving field of technology. This educational experience not only expanded my technical abilities but also emphasized the importance of teamwork, effective communication, and continuous learning in the world of computer programming.  
             </p>
             </>
         ),
