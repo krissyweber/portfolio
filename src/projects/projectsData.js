@@ -4,7 +4,7 @@ import projectThree from "../assets/project-3.png";
 
 const projects = {
     1: {
-        title: "Social Medial Platform",
+        title: "E-Commerce WebApp",
         image: projectOne,
         description: (
             <>
@@ -13,11 +13,12 @@ const projects = {
             </p>
             </>
         ),
-        github: "https://github.com",
+        github: "https://github.com/krissyweber/React-Frontend",
+        githubBackend: "https://github.com/krissyweber/Node-API",
         demo: "https:netlify.com",
     },
     2: {
-        title: "E-Commerce WebApp",
+        title: "Social Media WebApp",
         image: projectTwo,
         description: (
             <>
@@ -26,7 +27,7 @@ const projects = {
             </p>
             </>
         ),
-        github: "https://github.com",
+        github: "https://github.com/krissyweber/TwitterMock",
         demo: "https:netlify.com",
     },
     3: {

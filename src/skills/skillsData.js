@@ -41,7 +41,7 @@ const skills = {
     },
     {
         title: "Node.js",
-        level: 3,
+        level: 5,
     },
   ],
 };
