@@ -4,12 +4,12 @@ import projectThree from "../assets/project-3.png";
 
 const projects = {
     1: {
-        title: "E-Commerce WebApp",
+        title: "E-Commerce Web App",
         image: projectOne,
         description: (
             <>
             <p>
-                write about 
+                E-commerce web application where products can be added, edited and delted. 
             </p>
             </>
         ),
@@ -18,12 +18,12 @@ const projects = {
         demo: "https:netlify.com",
     },
     2: {
-        title: "Social Media WebApp",
+        title: "Social Media Web App",
         image: projectTwo,
         description: (
             <>
             <p>
-                write about 
+                Twitter app mock.
             </p>
             </>
         ),
@@ -31,16 +31,16 @@ const projects = {
         demo: "https:netlify.com",
     },
     3: {
-        title: "Other",
+        title: "Sales Dashboard",
         image: projectThree,
         description: (
             <>
             <p>
-                write about 
+                Interactive dashboard made with excel sheets. 
             </p>
             </>
         ),
-        github: "https://github.com",
+        github: "https://docs.google.com/spreadsheets/d/1_nT2T1u5vyTzCTUYNHNB6ehrJGQV1nlXI6FJU0_tGDw/edit#gid=395338838",
         demo: "https:netlify.com",
     },
 };
