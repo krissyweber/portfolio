@@ -23,7 +23,7 @@ const projects = {
         description: (
             <>
             <p>
-                Twitter app mock.
+                Twitter app mock where you can sign-up, unsubscribe, post tweets, edit tweets, and see the posts of all users.
             </p>
             </>
         ),

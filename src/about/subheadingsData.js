@@ -34,7 +34,12 @@ Balancing screen time with outdoor activities helps me stay creative and adaptab
         content: (
             <>
             <p>
-                My name is Kristine blah blah
+            UPWORK, Freelance Work
+            <p>SEP 2023 — PRESENT</p>
+	<p>Worked closely with clients to understand their data requirements and provided tailored solutions that addressed their specific business challenges.
+	Developed interactive dashboards and reports using Tableau for clients, enabling them to visualize complex data sets and derive actionable insights.
+	Utilized SQL for querying, updating, and managing databases, ensuring data integrity and optimizing data retrieval for analysis purposes.</p>
+
             </p>
             </>
         ),

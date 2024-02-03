@@ -86,6 +86,7 @@
     justify-content: space-around;
 }
 
+
 @media (max-width: 1100px) {
     .project-menu{
         width: 28rem;
