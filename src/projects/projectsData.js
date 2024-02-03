@@ -9,7 +9,7 @@ const projects = {
         description: (
             <>
             <p>
-                E-commerce web application where products can be added, edited and delted. 
+                E-commerce web application where products can be added, edited and deleted. 
             </p>
             </>
         ),
