@@ -1,6 +1,7 @@
 import projectOne from "../assets/project-1.png";
 import projectTwo from "../assets/project-2.png";
 import projectThree from "../assets/project-3.png";
+import projectFour from "../assets/project-4.png";
 
 const projects = {
     1: {
@@ -31,6 +32,19 @@ const projects = {
         demo: "https:netlify.com",
     },
     3: {
+        title: "Home Services App",
+        image: projectFour,
+        description: (
+            <>
+            <p>
+                React Native mobile application to book and view home services in the area. 
+            </p>
+            </>
+        ),
+        github: "https://github.com/krissyweber/my-home-services-app",
+        demo: "https:netlify.com",
+    },
+    4: {
         title: "Sales Dashboard",
         image: projectThree,
         description: (
@@ -44,5 +58,6 @@ const projects = {
         demo: "https:netlify.com",
     },
 };
+
 
 export default projects;

@@ -29,10 +29,13 @@ export default class ProjectsMenu extends Component {
                 <img src={project.image} alt={project.title}></img>
                 <div>{project.description}</div>
                 <div className='link-container'>
-                    <a href={project.github} target='_blank' rel='noopener noreferrer'>GITHUB</a>
-                    <a href={project.githubBackend} target='_blank' rel='noopener noreferrer'>GITHUB BACKEND</a>
-                    <a href={project.demo} target='_blank' rel='noopener noreferrer'>DEMO</a>
-            </div>
+    <a href={project.github} target='_blank' rel='noopener noreferrer'>GITHUB</a>
+    {/* Check if the project has a backend */}
+    {project.hasBackend && (
+        <a href={project.githubBackend} target='_blank' rel='noopener noreferrer'>GITHUB BACKEND</a>
+    )}
+    <a href={project.demo} target='_blank' rel='noopener noreferrer'>DEMO</a>
+</div>
            
            
             </div>
@@ -41,7 +44,7 @@ export default class ProjectsMenu extends Component {
 
   render() {
     const { activeProject} = this.state;
-    const projectItems = ["Project One", "Project Two", "Project Three"];
+    const projectItems = ["Project One", "Project Two", "Project Three", "Project Four"];
 
     return (
       <div className='project-menu'>

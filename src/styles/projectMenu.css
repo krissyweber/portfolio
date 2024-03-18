@@ -1,9 +1,9 @@
 .project-menu {
-    width: 45rem;
-    position: fixed;
+    width: 60rem;
+    position: absolute;
     display: flex;
-    top: 25%;
-    left: 50%;
+    top: 20%;
+    left: 45%;
     transform: translateX(-50%);
 }
 
@@ -12,7 +12,7 @@
     display: flex;
     position: relative;
     width: 40%;
-    margin-top: 12rem;
+    margin-top: 8rem;
     align-items: flex-end;
 }
 
@@ -47,9 +47,12 @@
 .project-item.activeProject:nth-child(3) {
     background: linear-gradient(270deg, #ffffff00, var(--cyan) 70%);
 }
+.project-item.activeProject:nth-child(4) {
+    background: linear-gradient(270deg, #ffffff00, var(--cyan) 70%);
+}
 
 .project-sub-container {
-    width: 60%;
+    width: 70%;
     margin-top: 2rem;
     display: flex;
     flex-direction: column;
@@ -62,8 +65,9 @@
 }
 
 .project-sub-container img {
-    width: 100%;
-    object-fit: cover;
+    width: auto;
+    height: 50%;
+    object-fit: contain;
     border-radius: 0.5rem 3rem 0.5rem 0,5rem;
     opacity: 0.9;
 }
@@ -115,10 +119,11 @@
     }
    .project-sub-container {
     margin-top: 1rem;
-    width: 12rem;
+    width: 100%;
    }
    .project-sub-container img {
-    width: 12rem;
+    width: 100%;
+    height: auto;
    }
    .link-container a {
     margin-top: 0.5rem;
